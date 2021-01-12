@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{tfrupee}
+\usepackage{amsmath}
+\title{ASSIGNMENT-1}
+\author{SENANI SADHU}
+\date{\today}
+\begin{document}
+	\maketitle
+	\pagenumbering{roman}
+	\section{Question:-}
+	\paragraph{The bookshop of a particular school has
+		10 dozen chemistry books, 8 dozen physics
+		books, 10 dozen economics books. Their
+		selling prices are \rupee 80, \rupee 60 and \rupee 40 each
+		respectively. Find the total amount the
+		bookshop will receive from selling all the
+		books using matrix algebra.}
+	\section{Solution:-}
+	No of chemistry books =10 dozen= 10*12 = 120
+	\newline
+	No of physics books = 8 dozen = 8*12 = 96
+	\newline
+	No of economics books = 10 dozen = 10*12=120
+	\newline
+	Let matrix A denote the no of books per subject.
+	\newline
+	\begin{equation}
+		A=\begin{bmatrix}
+			120 &96 & 120
+		  \end{bmatrix}
+	\end{equation}
+	\newline
+	Let matrix B  denote  the selling price of  books  per subject.
+	\newline
+	\begin{equation}
+		B=\begin{bmatrix}
+			80\\
+			60\\
+			40
+		\end{bmatrix}
+	\end{equation}
+	 \newline
+	 Now,
+	 \newline
+	 Total amount the shopkeeper receives =
+	 No of books * Selling Price = AB
+	 =\begin{equation}
+	 	\begin{bmatrix}
+	 		120 & 96 &120
+	 	\end{bmatrix}*\begin{bmatrix}
+	 	80\\
+	 	60\\
+	 	40
+ 	\end{bmatrix}
+	 \end{equation}
+ \newline
+ =\begin{equation}
+ 	\begin{bmatrix}
+ 		120*80 + 96*60 + 120*40
+ 	\end{bmatrix}
+ \end{equation}
+\newline
+=120*80 + 96*60 + 120*40= 9600 + 5760 + 4800=\paragraph{20160}
+
+\paragraph{Hence,total amount received by shopkeeper is \rupee20160}
+\end{document}
